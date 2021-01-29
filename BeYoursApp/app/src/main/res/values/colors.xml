@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- untuk gradien -->
+    <color name="deep_purple_500">#673ab7</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="blue_500">#2196f3</color>
+    <color name="cyan_500">#00bcd4</color>
+    <color name="light_blue_500">#03a9f4</color>
+
+    <color name="purple_200">#CE93D8</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="fore">#cfdac8</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00796B</color>
+    <color name="button">#dddddd</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="header">#ff8585</color>
+    <color name="kepala">#e8eae6</color>
+
+    <color name="tema_ungu">#9966cc</color>
+    <color name="light_coral">#f5a58c</color>
+
+    <color name="actionbar">#7987f6</color>
+
+    <!--<color name="colorPrimary">#1BC1E2</color>
+    <color name="colorPrimaryDark">#1BC1E2</color>
+    <color name="colorAccent">#1BC1E2</color>-->
+</resources>

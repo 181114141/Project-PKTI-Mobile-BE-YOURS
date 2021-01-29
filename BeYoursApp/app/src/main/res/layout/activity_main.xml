@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/animation_list">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:background="#7987f6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BE YOURS (Barter Your Toys Here)"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELAMAT DATANG USER"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="Aplikasi Tukar Mainan Berbasis Mobile Sebagai Solusi Mengatasi Masalah Mainan Terlalu Banyak"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/splash"
+                    android:drawableTop="@drawable/ic_baseline_message_24"
+                    android:paddingTop="15dp"
+                    android:text="Chat"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:onClick="openChat"/>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/splash"
+                    android:drawableTop="@drawable/ic_baseline_store_24"
+                    android:paddingTop="15dp"
+                    android:text="Marketplace"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:onClick="openMarket"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/splash"
+                    android:drawableTop="@drawable/ic_baseline_add_24"
+                    android:gravity="center"
+                    android:paddingTop="15dp"
+                    android:text="Donate"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:onClick="openDonate"/>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/splash"
+                    android:drawableTop="@drawable/ic_baseline_account_circle_24"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingRight="10dp"
+                    android:text="Profile"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:onClick="openProfile" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

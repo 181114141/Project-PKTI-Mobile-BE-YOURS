@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "929337093503",
+    "project_id": "beyoursapp-efcc2",
+    "storage_bucket": "beyoursapp-efcc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929337093503:android:fe2fd9d59c3d4582c17e4a",
+        "android_client_info": {
+          "package_name": "com.example.beyoursapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929337093503-vgdjs8rr79olj3t9oc6i5s7lkpbeo4b9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beyoursapp",
+            "certificate_hash": "4c7a21d030b9504e56456853c6716b4712683ad1"
+          }
+        },
+        {
+          "client_id": "929337093503-3im1r8dc5e8q0gbmn2aukfg12iqjgf43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Rjq8zUHU137ziO3Mj1m_s_GVGsAR4m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929337093503-3im1r8dc5e8q0gbmn2aukfg12iqjgf43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
